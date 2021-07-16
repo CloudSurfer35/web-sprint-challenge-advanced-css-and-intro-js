@@ -253,10 +253,12 @@ Example born in 1901 and died in 1959 - included -- born in 1889 and died in 192
 If correct, the function should return ["Salvador Dali", "Frida Kahlo"]*/
 // Hint - Look up the .split() method
 
-function get20s(array) {
-  /*Your Code Here*/
+function get20s(array, number) {
+  array.split([5],[19]);
+  return array
 }
 
+console.log(`task 4`, get20s(5, 19));
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 5: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
@@ -269,12 +271,12 @@ Use removeArtist to do the following:
 For example, if removeArtist is invoked with the artists array and the number 0, it will remove Amedeo Modigliani from our dataset and return the number 19. */
 
 function removeArtist(array, index) {
-  for(let i = 0; i < array; i++){
+  for(let i = 0; i < array.length; i++){
     if(array[i] === index){
       array.splice(i);
     }
   }
-  return array.length;
+  return array;
 }
 
 console.log(`task 5`, removeArtist(artists, 0));
@@ -304,7 +306,7 @@ function addArtist(array){
     genre: Web, 
     nationality: Mexi-can,
     bio: lorem});
- return array;
+ return array[20].push;
 }
 
 console.log(`task 6`, addArtist(artists));

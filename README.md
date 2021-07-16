@@ -24,23 +24,25 @@ Please answer the following questions below, you may edit the readme file to inc
 
 1. How would you describe acessibility on the web to someone new to programming?
 
+Accessibility is the practice of making your websites usable by as many people as possible.
 
+2. Talk about 3 different things you can do to ensure your website is accessible.
 
-2. Talk about 3 different things you can do to ensure your website is accessible. 
-
-
+2a. I first add media queries to allow my page to fluctuate to different device screen sizes.
+2b. Flex-box is then utilized in CSS to adjust sections, and divs to adjust to different screen sizes.
+2c. Scalable units of measurement shortly after come into play adjusting specific items to move and re-size with %'s, and rem's.
 
 3. How would you explain the concept of a variable to someone new to programming?
 
-
+Variables are used to store information to be referenced and manipulated in a computer program.
 
 4. What is the purpose of using functions in code?
 
-
+Functions enable programmers to break down a problem into smaller chunks, each of which performs a particular task.
 
 5. How do you access a key inside of an object inside of an array?
 
-
+array[object].key = ""
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
